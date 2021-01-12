@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next-remote-watch ./posts",
     "build": "next build",
     "start": "next start"
   },
@@ -15,5 +15,8 @@
     "react-dom": "17.0.1",
     "remark": "^12.0.0",
     "remark-html": "^12.0.0"
+  },
+  "devDependencies": {
+    "next-remote-watch": "^0.3.0"
   }
 }
